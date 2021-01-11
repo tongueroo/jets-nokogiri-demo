@@ -11,6 +11,11 @@ class NokogiriController < ApplicationController
       content = link.content
     end
 
-    render json: {content: content, nokogiri_version: Nokogiri::VERSION}
+    render json: {
+      content: content,
+      nokogiri_version: Nokogiri::VERSION,
+      jets_version: Jets::VERSION,
+      ruby_version: RUBY_VERSION,
+    }
   end
 end
