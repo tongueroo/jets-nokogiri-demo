@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jets", "~> 3.0.0"
+gem "jets", "~> 2.3.19"
 
 # Include jetpacker if you are building html pages
 gem "jetpacker"
